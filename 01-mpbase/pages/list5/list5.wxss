@@ -1,0 +1,38 @@
+.content {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.title,
+.subtitle {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 20px;
+  /* color: #333; */
+}
+
+.subtitle {
+  font-size: 18px;
+  /* color: #555; */
+}
+
+.difficulty {
+  font-size: 18px;
+  /* color: #777; */
+}
+
+.difficulty-stars {
+  margin-left: 5px;
+  color: gold;
+}
+
+.suitable-crowd {
+  margin-top: 15px;
+  font-size: 16px;
+  /* color: #999; */
+  font-style: italic;
+}

@@ -1,0 +1,14 @@
+
+<view class="container">
+  <!-- 图片部分 -->
+  <image src="../../assets/pra/p.png" mode="aspectFit" class="tutorial-image" />
+
+  <!-- 按钮部分 -->
+  <view class="button-container">
+    <button bindtap="startReading">开始阅读</button>
+    <button bindtap="toggleFavorite"> {{isFavorited ? '已收藏' : '收藏'}} </button>
+  </view>
+
+  <!-- 内容简介部分 -->
+  <text class="introduction">Python是一种广泛使用的高级编程语言，由Guido van Rossum于1989年底发明，第一个公开发行版发行于1991年。Python的设计哲学强调代码的可读性和简洁的语法（尤其是使用空格缩进来区分代码块，而不是使用大括号或关键词）。这使得Python被认为是一种易于学习的语言，同时具备强大的功能，适合初学者和经验丰富的程序员。</text>
+</view>

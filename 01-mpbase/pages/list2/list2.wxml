@@ -1,0 +1,19 @@
+<view class="content">
+  <text class="title">🔥134个核心知识点，9个算法模块，贴合蓝桥杯考纲，带你体系化学习</text>
+  
+  <view class="title">
+    <text >🔥从语法基础出发，90天教学，4个月备赛，剑指省一</text>
+  </view>
+  <view class="difficulty">
+    <text>课程难度：</text>
+    <text class="difficulty-stars">🌟🌟🌟</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>适合人群：</text>
+    <text>零基础、算法基础较为薄弱的同学</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>视频链接：</text>
+    <text>https://www.lanqiao.cn/courses/21959</text>
+  </view>
+</view>

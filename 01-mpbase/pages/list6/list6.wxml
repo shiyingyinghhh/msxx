@@ -1,0 +1,20 @@
+<view class="content">
+  <text class="title">🔥27个核心知识点，5个算法模块，专攻蓝桥杯重难点题型，在实战中提升实力
+ </text>
+  
+  <view class="title">
+    <text >🔥专攻蓝桥杯7-10题，30天教学，4个月备赛，剑指国一</text>
+  </view>
+  <view class="difficulty">
+    <text>课程难度：</text>
+    <text class="difficulty-stars">🌟🌟🌟🌟🌟🌟</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>适合人群：</text>
+    <text>算法基础扎实，想要冲刺蓝桥杯国赛的同学</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>视频链接：</text>
+    <text>https://www.lanqiao.cn/cup/group-activity/10/</text>
+  </view>
+</view>

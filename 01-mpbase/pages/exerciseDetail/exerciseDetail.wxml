@@ -1,0 +1,8 @@
+<!--pages/exerciseDetail/exerciseDetail.wxml-->
+<view class="question-container">
+  <block wx:for="{{questions}}" wx:key="index">
+    <view class="question">
+      <text>{{item}}</text>
+    </view>
+  </block>
+</view>

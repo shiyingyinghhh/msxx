@@ -1,0 +1,38 @@
+/* pages/prc-2/prc-2.wxss */.container {
+  padding: 20px;
+}
+.header {
+  text-align: center;
+}
+.title {
+  font-size: 24px;
+  color: #333;
+}
+.introduction {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #666;
+}
+.stats {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.action-button {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.learning-modes, .practice {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}

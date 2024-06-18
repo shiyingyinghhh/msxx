@@ -1,0 +1,20 @@
+<!-- pages/like/like.wxml -->
+<view class="like-container">
+  <block wx:if="{{isLoggedIn}}">
+    <block wx:if="{{favorites.length > 0}}">
+      <view class="favorites-list">
+        <block wx:for="{{favorites}}" wx:key="index">
+          <view class="favorite-item" bindtap="goToTutorial">
+            <text>{{item.tutorialName}}</text>
+          </view>
+        </block>
+      </view>
+    </block>
+    <block wx:else>
+      <text>没有收藏记录</text>
+    </block>
+  </block>
+  <block wx:else>
+    <text>请登录</text>
+  </block>
+</view>

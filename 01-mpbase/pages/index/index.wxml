@@ -1,0 +1,69 @@
+<!--轮播图区域-->
+<view class="swiper">
+  <swiper autoplay 
+  interval="2000"  
+  indicator-dots 
+  indicator-color="#fff"
+  circular
+  indicator-active-color="#0262ad"
+  >
+    <swiper-item>
+    <image src="../../assets/swiper/1.png" mode=""/>
+    </swiper-item>
+
+    <swiper-item>
+      <image src="../../assets/swiper/2.png" mode=""/>
+    </swiper-item>
+
+    <swiper-item>
+    <image src="../../assets/swiper/3.png" mode=""/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!--信息-->
+<view  class="info">
+  <text>在线学习</text>
+  <text>只讲干货</text>
+  <text>配套资源</text>
+  <text>权威证书</text>
+</view>
+
+<!--导航-->
+<view  class="i-nav">
+  <view>
+  <image src="../../assets/i-nav/教程更新.png" mode="aspectFit" bind:tap="navigateToCourse"/>
+  <text>课程更新</text>
+  </view>
+  <view>
+  <image src="../../assets/i-nav/教程库.png" mode="" bind:tap="navigateToP"/>
+  <text>教程库</text>
+  </view>
+  <view>
+  <image src="../../assets/i-nav/针对性练习.png" mode="" bind:tap="navigateToPractice"/>
+  <text>针对性练习</text>
+  </view>
+  <!-- <view>
+  <image src="../../assets/i-nav/直播.png" mode=""/>
+  <text>直播</text>
+  </view> -->
+  <view>
+  <image src="../../assets/i-nav/面试宝典.png" mode="" bind:tap="navigateToList"/>
+  <text>教程题库</text>
+  </view>
+</view> 
+
+<!--推荐教程-->
+<view  class="course"></view>
+<scroll-view class="scroll-y" scroll-y="true">
+  <!--列表项 -->
+  <view class="list-item" wx:for="{{courseList}}" wx:key="index">
+    <!-- 图片 -->
+    <image class="item-image" src="{{item.image}}" bindtap="itemTap" data-url="{{item.url}}" />
+    <!-- 描述信息 -->
+    <view class="item-description">
+      <text class="title" bindtap="itemTap" data-url="{{item.url}}">{{item.title}}</text>
+      <text>{{item.description}}</text>
+    </view>
+  </view>
+</scroll-view>

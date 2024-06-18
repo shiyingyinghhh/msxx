@@ -1,0 +1,40 @@
+<!--pages/user-info/user-info.wxml-->
+<view class="wrap">
+  <view class="container">
+    <!-- 表单 -->
+    <view class="form">
+
+      <view class="role" bind:tap="upload" wx:if="{{person}}}">
+        <image src="{{imgurl}}" mode=""/>
+      </view>
+
+      <view class="role" bind:tap="upload" wx:else>
+        <!-- <image src="../../assets/user/none.png" mode="" /> -->
+        <image src="{{imgurl}}" mode=""/>
+      </view>
+
+      <view class="inputs">
+        <!-- 用户名 -->
+        <view class="item">
+          <view class="title">姓名</view>
+          <input type="text" placeholder-class="placeholder-class" value="{{name}}" bindinput="name" />
+        </view>
+        <!-- 电话 -->
+        <view class="item">
+          <view class="title">电话</view>
+          <input type="text" placeholder-class="placeholder-class" value="{{tel}}" bindinput="tel"/>
+        </view>
+        <!-- 地址 -->
+        <view class="item">
+          <view class="title">地址</view>
+          <input type="text" placeholder-class="placeholder-class" value="{{address}}" bindinput="address"/>
+        </view>
+
+      </view>
+    </view>
+    <!-- 按钮 -->
+    <view class="btn" bindtap="save">保存并登录</view>
+  </view>
+
+
+</view>

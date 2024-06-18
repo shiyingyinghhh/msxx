@@ -1,0 +1,19 @@
+<view class="content">
+  <text class="title">🔥5大必学模块 + 27个知识点精讲 +直播代练</text>
+  
+  <view class="title">
+    <text >🔥攻克难题，剑指国一</text>
+  </view>
+  <view class="difficulty">
+    <text>课程难度：</text>
+    <text class="difficulty-stars">🌟🌟🌟🌟</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>适合人群：</text>
+    <text>算法基础扎实的同学</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>视频链接：</text>
+    <text>https://www.lanqiao.cn/courses/21959</text>
+  </view>
+</view>

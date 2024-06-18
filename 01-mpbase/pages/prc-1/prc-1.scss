@@ -1,0 +1,27 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial-image {
+  width: 75%;
+  height: 20vh; /* 根据实际需要调整 */
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.introduction {
+  width: 90%;
+  font-size: 16px;
+  color: #333;
+  text-align: justify;
+}

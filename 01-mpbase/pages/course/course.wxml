@@ -1,0 +1,13 @@
+
+<scroll-view class="scroll-y" scroll-y="true">
+  <!--列表项 -->
+  <view class="list-item" wx:for="{{courseList}}" wx:key="index">
+    <!-- 图片 -->
+    <image class="item-image" src="{{item.image}}" bindtap="itemTap" data-url="{{item.url}}" />
+    <!-- 描述信息 -->
+    <view class="item-description">
+      <text class="title" bindtap="itemTap" data-url="{{item.url}}">{{item.title}}</text>
+      <text>{{item.description}}</text>
+    </view>
+  </view>
+</scroll-view>

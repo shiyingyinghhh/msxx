@@ -1,0 +1,13 @@
+<view class="titleImg">
+  <image src="../../assets/user/1.png"></image>
+  <view class="font">帮助</view>
+</view>
+<view class="lineYellow"></view>
+
+<view class="content">
+  
+  <view class="title">您可能遇到的问题：</view>
+  <view class="font">关于您无法保存小程序图片的问题，此问题程序不会进行任何提示，是由于程序未授权等因素，小米手机可以进行长按识别保存图片，其他型号的手机可以利用截图，该问题正在进行修复，请耐心等候。</view>
+</view>
+
+<view class="botton" style="color: gray; margin-top: 50rpx;text-align: center;font-size: 26rpx;">——2024/6/16施莹莹 编辑——</view>

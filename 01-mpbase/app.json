@@ -1,0 +1,68 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/practice/practice",
+    "pages/user/user",
+    "pages/user-info/user-info",
+    "pages/list/list",
+    "pages/like/like",
+    "pages/help/help",
+    "pages/prc-1/prc-1",
+    "pages/prc-2/prc-2",
+    "pages/list2/list2",
+    "pages/list3/list3",
+    "pages/list4/list4",
+    "pages/list5/list5",
+    "pages/list6/list6",
+    "pages/exercise/exercise",
+    "pages/exerciseDetail/exerciseDetail"
+   
+    
+  ],
+  "window": {
+    "navigationBarTitleText": "码上学习",
+    "navigationBarBackgroundColor": "#0262ad",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/assets/tabbar/首页.png",
+        "selectedIconPath": "/assets/tabbar/首页active.png"
+      },
+      {
+        "text": "课程",
+        "pagePath": "pages/course/course",
+        "iconPath": "/assets/tabbar/课程.png",
+        "selectedIconPath": "/assets/tabbar/课程active.png"
+      },
+      {
+        "text": "教程",
+        "pagePath": "pages/practice/practice",
+        "iconPath": "/assets/tabbar/练习_.png",
+        "selectedIconPath": "/assets/tabbar/练习active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "/assets/tabbar/我的.png",
+        "selectedIconPath": "/assets/tabbar/我的active.png"
+      }
+    ]
+  },
+  "webview": {
+    "usingComponents": true,
+    "component2": true,
+    "multipleSlots": true,
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

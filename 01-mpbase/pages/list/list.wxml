@@ -1,0 +1,19 @@
+<view class="content">
+  <text class="title">🔥14天全程直播冲刺串讲 + 30份独家模板</text>
+  
+  <view class="title">
+    <text >🔥冲刺！冲刺！剑指省一</text>
+  </view>
+  <view class="difficulty">
+    <text>课程难度：</text>
+    <text class="difficulty-stars">🌟🌟🌟🌟</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>适合人群：</text>
+    <text>算法基础较好的同学</text>
+  </view>
+  <view class="suitable-crowd">
+    <text>视频链接：</text>
+    <text>https://www.lanqiao.cn/courses/21959</text>
+  </view>
+</view>

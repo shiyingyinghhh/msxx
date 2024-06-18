@@ -1,0 +1,52 @@
+<view class="about" bindtap="showPop" style="display:{{about}};">
+  <view class="content">
+    <view class="img">
+      <image src="../../images/index-icon/title.png"></image>
+    </view>
+    <view class="font">码上学习</view>
+    <view class="font1">码 上 学 习 1.1.0</view>
+    <view class="font2">开发人员：施莹莹</view>
+    
+  </view>
+</view>
+
+
+<view class="bottom">
+  <view class="bottom-content">
+    <navigator url="../../pages/user-info/user-info"><view class="me-about">
+      <text>个人信息</text>
+      <image src="../../images/common/next.png"></image>
+    </view></navigator>
+    
+    <navigator url="../../pages/"><view class="me-about">
+      <text>浏览历史</text>
+      <image src="../../images/common/next.png"></image>
+    </view></navigator>
+
+    <navigator url="../../pages/like/like"><view class="me-about">
+      <text>收藏教程</text>
+      <image src="../../images/common/next.png"></image>
+    </view></navigator>
+
+    <!-- <navigator url="../../pages/"><view class="me-about">
+      <text>错题集</text>
+      <image src="../../images/common/next.png"></image>
+    </view></navigator> -->
+
+    <view class="me-about" bindtap="showPop">
+      <text>关于</text>
+      <image src="../../images/common/next.png"></image>
+    </view>
+    
+    <navigator url="../../pages/help/help"><view class="me-about">
+      <text>帮助</text>
+      <image src="../../images/common/next.png"></image>
+    </view></navigator>
+    <navigator url="../../pages/"><view class="me-about">
+      <text>反馈与建议</text>
+      <image src="../../images/common/next.png"></image>
+    </view></navigator>
+   
+
+  </view>
+</view>

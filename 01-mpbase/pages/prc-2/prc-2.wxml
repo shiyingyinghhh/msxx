@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text class="title">HTML教程</text>
+  </view>
+  <view class="introduction">
+    <text>HTML是现在世界通用的超文本标记语言，通过它，可以实现图片、链接、音乐以及程序等等多种元素。现如今，HTML已经是程序员必须掌握的一项基本功。</text>
+  </view>
+  <view class="stats">
+    <text>阅读：{{readCount}}次</text>
+  </view>
+  <button bindtap="startReading">开始阅读</button>
+  <view class="actions">
+    <button class="action-button">收藏</button>
+    <button class="action-button">关注公众号</button>
+  </view>
+  <view class="learning-modes">
+    <text>如果您想要更快、更系统地学会HTML，您最好采用边学边练的学习模式：HTML微课</text>
+    <text>如果您觉得HTML的学习难度较高，不易理解，建议您采用视频教程进行学习：HTML视频课程</text>
+  </view>
+  <view class="practice">
+    <text>学完本教程之后，W3Cschool推荐您进行实战练习：HTML实战</text>
+  </view>
+</view>
